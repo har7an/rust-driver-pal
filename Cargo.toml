@@ -30,10 +30,11 @@ simplelog = { version = "0.8.0", optional = true }
 version = "1.0.0-alpha.8"
 
 [dependencies.linux-embedded-hal]
-version = "0.4.0-alpha.2"
+version = "0.4.0-alpha.3"
 optional = true
 
 [dependencies.driver-cp2130]
-version = "1.0.0-alpha.5"
+git = "https://github.com/har7an/rust-driver-cp2130"
+branch = "fork/hack-deps"
 optional = true
 
